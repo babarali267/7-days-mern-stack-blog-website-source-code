@@ -1,0 +1,120 @@
+
+/* Blog page design */
+
+.container{
+    width: 70%;
+    margin: 50px auto;
+}
+/* mypost form styling */
+
+.mypost {
+    width: 60%;
+    margin: 30px auto;
+    padding: 10px 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.mypost input {
+    display: block;
+    margin: 10px 0;
+}
+
+.mypost input ,.mypost select ,.mypost textarea{
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.mypost textarea{
+    height: 300px;
+}
+
+.mypost button {
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 15px ;
+    background: #111;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid;
+    transition: 0.5s ease-in-out;
+    font-size: 18px;
+}
+
+/* style home blog page */
+
+
+.container {
+    width: 70%;
+    margin: 50px auto;
+
+}
+.articles {
+    display: flex;
+    margin: 50px 0;
+    gap: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    align-items: center;
+
+}
+
+.articles .postarea {
+    width: 50%;
+}
+.articles .postimage {
+    width: 50%;
+    height: 350px;
+}
+
+.articles .postarea  *{
+    padding: 10px 0;
+}
+.articles .postarea h1{ font-size: 65px;}
+
+
+.articles .postimage img{
+    height: 100%;
+    width: 100%;
+}
+
+.articles .postarea button {
+    border: 0;
+    padding: 5px 10px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin: 0 5px;
+    
+}
+.articles .postarea button.view {
+    background: skyblue;
+    border: 1px solid skyblue;
+}
+
+.articles .postarea button.edit {
+    background: rgb(135, 235, 150);
+    border: 1px solid rgb(135, 235, 150);
+}
+
+.articles .postarea button.del {
+    background: red;
+    border: 1px solid red;
+}
+
+.articles .postarea button:hover{
+    background: transparent;
+    color: #111;
+}
+
+
+.post-details-container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+
+.post-details-container img{
+    width: 100%;
+}
